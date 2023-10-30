@@ -1,3 +1,5 @@
+@import "../styles/partials/variables.scss";
+
 .login-page {
   width: 100vw;
   height: 100vh;
@@ -10,8 +12,27 @@
     object-fit: contain;
   }
   &__contents {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
     &__title {
-      margin: auto;
+      text-align: center;
+      color: $white;
+      margin-top: 106px;
+      .heading {
+        font-size: $fontSizeBig;
+        text-transform: capitalize;
+        font-weight: 700;
+        line-height: 66px;
+        letter-spacing: 0.6380952596664429px;
+      }
+      .caption {
+        text-transform: capitalize;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.20000000298023224px;
+      }
     }
   }
 }

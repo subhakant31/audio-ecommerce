@@ -1,0 +1,47 @@
+@import "../../styles/partials/variables.scss";
+
+.login-contents {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  .login-input-field {
+    width: 80%;
+    margin: auto;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    &::placeholder {
+      font-family: DM Sans;
+      text-transform: capitalize;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.20000000298023224px;
+    }
+  }
+  .forgot-pass-btn {
+    text-transform: capitalize;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: $white;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+  }
+  .signin-up-btn {
+    background: $primaryThemeColor;
+    width: 100%;
+    padding: 15px 0;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+}
